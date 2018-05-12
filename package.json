@@ -1,0 +1,36 @@
+{
+  "name": "eslint-plugin-uuapp",
+  "version": "0.1.1",
+  "description": "Extends eslint by rules specific for uuApp.",
+  "repository": "github:jiridudekusy/eslint-plugin-uuapp",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "uuapp",
+    "uaf"
+  ],
+  "author": "Jiří Dudek",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive",
+    "eslint": "eslint lib test"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.1",
+    "mocha": "^3.1.2",
+    "prettier": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
